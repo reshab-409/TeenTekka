@@ -1,0 +1,23 @@
+.download{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:3rem  auto;
+    gap: 1.5rem;
+}
+.download .btn{
+    display: inline-flex;
+    padding: 14px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 43px;
+    background: #EE9913;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}

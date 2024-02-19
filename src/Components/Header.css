@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Libre+Baskerville&family=Poppins:ital,wght@0,500;1,400;1,500&family=Quicksand:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    z-index: 100;
+    flex-direction: column;
+}
+
+.navbar .uprnav {
+    height: auto;
+    padding: .5rem;
+    width: 100%;
+    background: #333333;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .uprnav .sm {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .midnav {
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+    background: white;
+}
+
+.navbar .midnav .sm1 {
+    width: 70%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: #EFA021;
+    font-size: 40px;
+    font-style: normal;
+    font-family: 'Quicksand', sans-serif;
+    /* font-family: Sans-serif; */
+    font-weight: 700;
+    letter-spacing: 7.114px;
+}
+
+.navbar .midnav .sm1 img {
+    cursor: pointer;
+}
+
+.navbar .uprnav .sm small {
+    margin-left: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar .uprnav .sm span {
+    margin-left: .3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar .uprnav .sm p {
+    color: #B3B3B3;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.navbar .lwrnav {
+    height: auto;
+    width: 100%;
+    background: #F2F2F2;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .lwrnav .sm2 {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .lwrnav .sm2 .navoptions {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.navbar .lwrnav .sm2 .navoptions .other {
+    padding: .7rem;
+    color: #808080;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.navbar .lwrnav .sm2 .navoptions .other:hover {
+    color: #EE9913;
+}
+
+.navbar .lwrnav .sm2 .navoptions p {
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    gap: .5rem;
+}
+
+.navbar .lwrnav .sm2 .call {
+    display: flex;
+    align-items: center;
+    color: #1A1A1A;
+    gap: .5rem;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media screen and (max-width: 1586px) {
+    .navbar .midnav .sm1 {
+        font-size: 39px;
+    }
+
+    .navbar .uprnav .sm {
+        width: 75%;
+    }
+
+    .navbar .midnav .sm1 {
+        width: 75%;
+    }
+
+    .navbar .lwrnav .sm2 {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 1328px) {
+    .navbar .midnav .sm1 {
+        font-size: 38px;
+    }
+
+    .navbar .uprnav .sm {
+        width: 78%;
+    }
+
+    .navbar .midnav .sm1 {
+        width: 78%;
+    }
+
+    .navbar .lwrnav .sm2 {
+        width: 78%;
+    }
+
+}
+
+@media screen and (max-width: 1327px) {
+    .navbar .midnav .sm1 {
+        font-size: 39px;
+    }
+
+    .navbar .uprnav .sm {
+        width: 87%;
+    }
+
+    .navbar .midnav .sm1 {
+        width: 87%;
+    }
+
+    .navbar .lwrnav .sm2 {
+        width: 87%;
+    }
+}
+
+@media screen and (max-width: 1028px) {
+    .navbar .midnav .sm1 {
+        font-size: 38px;
+    }
+
+    .navbar .uprnav .sm {
+        width: 90%;
+    }
+
+    .navbar .midnav .sm1 {
+        width: 90%;
+    }
+
+    .navbar .lwrnav .sm2 {
+        width: 90%;
+    }
+
+}
+
+
+@media screen and (max-width: 668px) {
+    .navbar .midnav .sm1 {
+        font-size: 36px;
+    }
+
+    .navbar .lwrnav .sm2 .navoptions .other {
+        font-size: 12px;
+    }
+
+    .navbar .lwrnav .sm2 .navoptions p {
+        gap: .3rem;
+    }
+
+    .navbar .lwrnav .sm2 .call {
+        font-size: 12px;
+    }
+
+    .navbar .lwrnav .sm2 .call {
+        font-size: 12px;
+    }
+
+    .navbar .lwrnav .sm2 .navoptions {
+        gap: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 611px) {
+    .navbar .uprnav .sm {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    .navbar .lwrnav .sm2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar .lwrnav .sm2 .call {
+        margin-bottom: .5rem;
+    }
+    .navbar .lwrnav .sm2 .navoptions .other {
+        padding: 0.4rem;
+    }
+    .navbar .midnav .sm1 {
+        font-size: 32px;
+    }
+    .navbar .midnav .sm1 img {
+       height: 70px;
+    }
+}

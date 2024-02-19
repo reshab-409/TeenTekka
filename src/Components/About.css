@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Libre+Baskerville&family=Poppins:ital,wght@0,500;1,400;1,500&family=Quicksand:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.aboutmain .grey_bgabout {
+    min-height: 400px;
+    width: 100%;
+    background: #EDF2EE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.aboutdetails {
+    width: 70%;
+    margin: auto;
+    margin-top: 8rem;
+    display: flex;
+    margin-bottom: 2rem;
+    flex-direction: column;
+}
+
+.aboutdetails .tabs {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #E6E6E6;
+
+}
+
+.aboutdetails .tabs p {
+    padding: 5px 2rem;
+    cursor: pointer;
+    color: #808080;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.aboutdetails .tabs p:hover {
+    color: #1A1A1A;
+    font-size: 16px;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-bottom: 1px solid #20B526;
+}
+
+.aboutdetails .lwr {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.aboutdetails .lwr .lft {
+    width: 50%;
+}
+
+.aboutdetails .lwr .lft p {
+    color: #808080;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-top: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.aboutdetails .lwr .lft ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: 1rem;
+}
+
+.aboutdetails .lwr .lft ul li {
+    color: #808080;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.aboutdetails .lwr .lft ul li img {
+    background: #EE9913;
+    padding: .1rem;
+    border-radius: 50%;
+}
+
+.aboutdetails .lwr .rht {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.aboutdetails .lwr .rht .play {
+    position: absolute;
+    margin: auto;
+    height: 50px;
+    cursor: pointer;
+}
+
+.aboutdetails .lwr .rht img {
+    height: 250px;
+}
+
+
+
+.mored {
+    width: 70%;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.mored .mission {
+    width: 50%;
+
+}
+
+.mored .vision {
+    width: 50%;
+    align-self: self-end;
+}
+
+.mored .vision p {
+    font-family: 'Poppins', sans-serif;
+    color: #808080;
+    font-size: 14px;
+    margin-top: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.mored .vision h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #1A1A1A;
+    font-size: 40px;
+    margin-top: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.mored .mission p {
+    font-family: 'Poppins', sans-serif;
+    color: #808080;
+    font-size: 14px;
+    margin-top: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.mored .mission h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #1A1A1A;
+    font-size: 40px;
+    margin-top: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+@media screen and (max-width:1443px) {
+    .aboutdetails {
+        margin-top: 11rem;
+    }
+}
+
+@media screen and (max-width:1586px) {
+    .aboutdetails {
+        margin-top: 11rem;
+        width: 75%;
+    }
+
+    .mored {
+        width: 75%;
+    }
+
+}
+
+@media screen and (max-width:1328px) {
+    .aboutdetails {
+        width: 78%;
+    }
+
+    .mored {
+        width: 78%;
+    }
+
+}
+
+@media screen and (max-width:1327px) {
+    .aboutdetails {
+        margin-top: 11rem;
+        width: 87%;
+    }
+
+    .mored {
+        width: 87%;
+    }
+
+}
+
+@media screen and (max-width:1028px) {
+    .aboutdetails {
+        width: 90%;
+    }
+
+    .mored {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width:922px) {
+    .aboutdetails .lwr {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutdetails .lwr .lft {
+        width: 100%;
+    }
+    .aboutdetails .lwr .rht {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .mored .mission h1 {
+        font-size: 36px;
+    }
+    .mored .vision h1 {
+        font-size: 36px;
+    }
+}
+@media screen and (max-width:764px) {
+    .mored .vision {
+        width: 100%;
+        align-self: self-end;
+    }
+    .mored .mission {
+        width: 100%;
+    }
+}
+@media screen and (max-width:718px) {
+    .aboutdetails {
+        margin-top: 18rem;
+    }
+    .aboutdetails .tabs p {
+        padding: 5px 1rem;
+        font-size: 14px;
+    }
+    .aboutdetails .tabs p:hover {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:572px) {
+    .aboutdetails {
+        margin-top: 20rem;
+    }
+}
